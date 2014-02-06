@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mobile test</title>
+  <link href="themes/darkandred.css" rel="stylesheet">
+  <link href="themes/jquery.mobile.icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.structure-1.4.0.min.css" />
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+</head>
+
+<body>
+<!--home Page -->
+<div data-role="page" id="home">
+  <header data-role="header">
+    <h1>PageTitle</h1>
+  </header>
+   <div data-role="content">
+   	
+    <h1>home</h1>
+    <a href="#home" data-transition="slideup">home</a>
+    <a href="#about" data-transition="slide">about</a>
+   	<a href="#contact" data-transition="slideup">contact</a>
+    <a href="#popup" data-rel="popup">pop</a>
+  
+  	<!--- pop up-->
+    <div data-role="popup" id="popup"><p>hello world</p></div>
+   </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4>footer</h4>
+  </footer>
+</div>
+
+<!-- about -->
+
+
+<div data-role="page" id="about" data-theme="b">
+  <header data-role="header">
+    <h1>about PageTitle</h1>
+  </header>
+   <div data-role="content">
+   	
+    <h1>about</h1>
+    <a href="#home" data-transition="slideup">home</a>
+    <a href="#about" data-transition="slide">about</a>
+   	<a href="#contact" data-transition="slideup">contact</a>
+    
+    
+    <a href="#" data-role="button">Click Me</a>
+    <a href="#" data-role="button" data-inline="true">Click Me</a>
+    <a href="#" data-role="button" data-icon="star">Click Me</a>
+    
+   <button data-icon="check" data-inline="true" data-iconpos="top" data-theme="a">real Button</button>
+   
+   <div class="ui-grid-a">
+   	  <div class="ui-block-a">
+      <a href="#" data-role="button">Click Me</a>
+      
+   	</div>
+    <div class="ui-block-b">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+   </div>
+   
+   
+   <div class="ui-grid-b">
+   	  <div class="ui-block-a">
+      <a href="#" data-role="button">Click Me</a>
+      
+   	</div>
+    <div class="ui-block-b">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+      <div class="ui-block-b">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+   </div>
+   
+    <div class="ui-grid-c">
+   	  <div class="ui-block-a">
+      <a href="#" data-role="button">Click Me</a>
+      
+   	</div>
+    <div class="ui-block-b">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+      <div class="ui-block-c">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+     <div class="ui-block-d">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+   </div>
+   
+   
+    <div class="ui-grid-d">
+   	  <div class="ui-block-a">
+      <a href="#" data-role="button">Click Me</a>
+      
+   	</div>
+    <div class="ui-block-b">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+      <div class="ui-block-c">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+     <div class="ui-block-d">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+    <div class="ui-block-e">
+      <a href="#" data-role="button">Click Me</a>
+     
+   	</div>
+   </div>
+   
+   </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4>about footer</h4>
+  </footer>
+</div>
+
+<!-- contact-->
+
+<div data-role="page" id="contact">
+  <header data-role="header">
+    <h1>contact PageTitle</h1>
+  </header>
+   <div data-role="content">
+   	
+   <h1>contact</h1>
+   <a href="#home" data-transition="slideup">home</a>
+    <a href="#about" data-transition="slide">about</a>
+   	<a href="#contact" data-transition="slideup">contact</a>
+   <a href="#dialog" data-rel="dialog">open box</a>
+   </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4>conatact footer</h4>
+  </footer>
+  
+  
+<!--- POP UP --->
+  <div data-role="page" id="dialog">
+  <header data-role="header">
+    <h1>contact PageTitle</h1>
+  </header>
+   <div data-role="content">
+   	
+   <h1>contact</h1>
+   <a href="#home" data-transition="slideup">home</a>
+    <a href="#about" data-transition="slide">about</a>
+   	<a href="#contact" data-transition="slideup">contact</a>
+ 	<a href="index.html" data-rel="external" >First Index</a> 
+   </div>
+  <footer data-role="footer" data-position="fixed">
+    <h4>conatact footer</h4>
+  
+  
+</div>
+</body>
+</html>
